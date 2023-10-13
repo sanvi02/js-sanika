@@ -11,6 +11,7 @@ console.log(typeof myDate); //object
 // let myCreatedDate = new Date(2023, 0, 23) // month in js starts from 0
 //let myCreatedDate = new Date(2023, 0, 23, 25 ,3) // date and time
 //let myCreatedDate = new Date("2023-01-14") 
+
 let myCreatedDate = new Date("01-14-2023") 
 console.log(myCreatedDate.toLocaleString());
 
